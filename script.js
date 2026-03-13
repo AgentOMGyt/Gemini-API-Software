@@ -1,4 +1,4 @@
-const API_KEY = "AIzaSyDBI66tIutuqtP38PC4lI0uZe_mal4VaLQ";
+const API_KEY = "APIKEY";
 
 let conversations = JSON.parse(localStorage.getItem("all_chats")) || {};
 let currentChatId = localStorage.getItem("current_chat_id");
@@ -361,4 +361,5 @@ document.getElementById("prompt-input").onkeydown = (e) => {
 document.getElementById("current-chat-title").onclick = renameCurrentChat;
 
 // Lancement de l'application
+
 init();
